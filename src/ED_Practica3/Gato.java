@@ -8,7 +8,7 @@ package ED_Practica3;
  *
  * @author carlos
  */
-public class Gato extends Mascota {
+public class Gato extends Animal {
     //Atributo
 
     private String raza;

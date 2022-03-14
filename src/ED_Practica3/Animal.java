@@ -10,7 +10,7 @@ package ED_Practica3;
  *
  * Mediante implements llamamos a la interfaz Sonido
  */
-public abstract class Mascota implements Sonido {
+public abstract class Animal implements Sonido {
 
     //Atributos
     private String nombre;
@@ -21,7 +21,7 @@ public abstract class Mascota implements Sonido {
     /**
      *
      */
-    public Mascota() {
+    public Animal() {
 
     }
 
@@ -32,7 +32,7 @@ public abstract class Mascota implements Sonido {
      * @param nombre
      * @param edad
      */
-    public Mascota(String nombre, int edad) {
+    public Animal(String nombre, int edad) {
         this.nombre = nombre;
         this.edad = edad;
     }
