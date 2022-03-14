@@ -10,7 +10,7 @@ package ED_Practica3;
  *
  * Mediante implements llamamos a la interfaz Sonido
  */
-public abstract class Animal implements Sonido {
+public abstract class Animal {
 
     //Atributos
     private String nombre;
